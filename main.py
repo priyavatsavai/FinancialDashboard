@@ -9,6 +9,7 @@ st.set_page_config(layout="wide")
 # Reading the data
 df = pd.read_csv("data.csv")
 
+# this is my change in middle
 # Creatiing time features
 df = Preprocessor.fetch_time_features(df)
 
@@ -58,3 +59,6 @@ with col6:
     company_count = Preprocessor.fetch_top_revenue_companies(filtered_df)
     company_count.set_index("percentage revenue", inplace = True)
     st.bar_chart(company_count)
+
+
+# this is my change
