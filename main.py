@@ -60,5 +60,4 @@ with col6:
     company_count.set_index("percentage revenue", inplace = True)
     st.bar_chart(company_count)
 
-
-# this is my change
+# is my change raju
