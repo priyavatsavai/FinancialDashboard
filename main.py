@@ -58,3 +58,5 @@ with col6:
     company_count = Preprocessor.fetch_top_revenue_companies(filtered_df)
     company_count.set_index("percentage revenue", inplace = True)
     st.bar_chart(company_count)
+
+# is my change raju
